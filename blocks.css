@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+body {
+    background: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    /* overflow: hidden; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.toggle { 
+    padding-right: 24px;
+    padding-left: 2px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.clicked {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.title {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+}
+
+.subtitle {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    color: gray;
+}
+
+.footer {
+    font-size: 11pt;
+    display: inline-block;
+    color: gray;
+    margin-top: 40px;
+}
+
+a.footer {
+    font-weight: 800;
+}
+
+.container {
+    margin: 16px auto;
+    width: 400px;
+}
+
+.wrapper {
+    margin-top: 16px;
+    width: 400px;
+    height: 500px;
+}
+
+.base {
+    width: 42px;
+    height: 42px;
+    float: left;
+    margin-right: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background: #e1e1e1;
+}
+
+.filled {
+    background: black;
+}
+
+.blue {
+    background: blue;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green; 
+}
+
+.erase {
+    background: #e1e1e1;
+}
